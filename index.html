@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mission Web development-Module Four</title>
+  </head>
+  <body>
+    <header>
+      <h2>Module No. 4</h2>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">About</a></li>
+            <li><a href="index3.html">Nav Tree</a></li>
+            <li><a href="index4.html">Nav Four</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <div class="FirstVideo">
+        <h2>First Video</h2>
+        <pre>
+Here, I learn about
+            1. HTML vs HTML5
+            2. Audio and Video Tag
+            3. What is iframe?
+            4. Source tag 
+        </pre>
+        <!-- Audio Tag -->
+        <h2>Here I using Audio Tag</h2>
+        <audio controls src="./assets/Audio.mp3">Hello</audio>
+
+        <!-- Video Tag -->
+        <h2>Here I using video Tag</h2>
+        <div class="video">
+          <video width="300" controls>
+            <source src="./assets/Video.mp4" />
+          </video>
+        </div>
+
+        <!-- Iframe Tag -->
+        <h2>Here I using iframe Tag</h2>
+        <div class="iframe-w3school">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.wstech.com/"
+            title="Google"
+          ></iframe>
+        </div>
+        <div class="iframe-Youtube">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kUQ0SPVfVUE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!------------------- Video No. 2 ---------------->
+      <hr />
+      <article>
+        <header>
+          <h2>Video no. 2</h2>
+          <h1>Using HTML5 create a html file</h1>
+        </header>
+        <main>
+          <article>
+            <p>A html file have mainly three parts</p>
+            <ul>
+              <li>
+                Header section
+                <ul>
+                  <li>nav bar</li>
+                </ul>
+              </li>
+              <li>
+                Main
+                <ul>
+                  <li>
+                    article
+                    <ul>
+                      <li>header</li>
+                      <li>section</li>
+                      <li>footer</li>
+                    </ul>
+                  </li>
+                  <li>section</li>
+                  <li>header</li>
+                  <li>footer</li>
+                  <li>div</li>
+                </ul>
+              </li>
+              <li>
+                footer
+                <ul>
+                  <li>&copy; all right reserved</li>
+                  <li>anchor tag for various link</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+        </main>
+        <footer>
+          <p>
+            Main kotha holo ak akta section er vitor proyojon anushar e onake
+            kiau thakte pare tobe bisoy gulo meaning full hole valo hoi
+          </p>
+        </footer>
+      </article>
+
+      <hr />
+      <!-- video no 3 -->
+      <section>
+        <h2>Video no. 3</h2>
+        <h2>Please fill up the form</h2>
+        <form>
+          <label for="name"
+            >Name:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name... "
+              required
+            />
+          </label>
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email... "
+              required
+            />
+          </label>
+          <label for="phone"
+            >Phone:
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter your phone number... "
+              required
+            />
+          </label>
+
+          <fieldset>
+            <legend>What type of pitha do you want</legend>
+            <label for="chitoy"
+              ><input type="radio" name="pitha" id="chitoy" /> Chitoy</label
+            >
+            <label for="Vapa"
+              ><input type="radio" name="pitha" id="Vapa" /> Vapa</label
+            >
+            <label for="Pan Pitha"
+              ><input type="radio" name="pitha" id="Pan Pitha" /> Pan
+              Pitha</label
+            >
+            <label for="Kuli"
+              ><input type="radio" name="pitha" id="Kuli" /> Kuli</label
+            >
+          </fieldset>
+
+          <fieldset>
+            <legend>What type of vorta you want</legend>
+            <label for="Shutki"
+              ><input type="checkbox" name="Vorta" id="Shutki" /> Shutki</label
+            >
+            <label for="Elish"
+              ><input type="checkbox" name="Vorta" id="Elish" /> Elish</label
+            >
+            <label for="Shorisha"
+              ><input type="checkbox" name="Vorta" id="Shorisha" />
+              Shorisha</label
+            >
+            <label for="Zira"
+              ><input type="checkbox" name="Vorta" id="Zira" /> Zira</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea
+              name="instruction"
+              id="instruction"
+              placeholder="Tell you special instruction"
+              cols="30"
+              rows="4"
+            ></textarea>
+          </fieldset>
+          <input type="reset" value="Resets" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <hr />
+      <!-- video No. 4 -->
+
+      <section>
+        <h2>make a table</h2>
+        <table>
+          <caption class="table-caption">
+            Employee salary data
+          </caption>
+          <thead>
+            <tr>
+              <th>Sr No.</th>
+              <th>Name</th>
+              <th>Company</th>
+              <th>Salary</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Bill Gates</td>
+              <td>Microsoft</td>
+              <td>$1000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Lari Pache</td>
+              <td>Google</td>
+              <td>$1100</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Alon mask</td>
+              <td>Space X</td>
+              <td>$1200</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Mark Jukarburge</td>
+              <td>Facebook</td>
+              <td>$1300</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">Total Number: 4</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; all right reserved by Shuvajit Maitra</p>
+    </footer>
+  </body>
+</html>
